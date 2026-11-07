@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 276" width="900" height="276" role="img" aria-labelledby="t d">
+  <title id="t">Stack tecnológico</title>
+  <desc id="d">Frontend: Next.js, React, TypeScript, Tailwind CSS. Backend: Java, Jakarta EE, Tomcat 10, API Routes. Datos: PostgreSQL, Neon, Drizzle ORM, Supabase. Entrega: Vercel, GitHub, PWA, Vitest.</desc>
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+    .row { animation: slide .8s ease-out both; }
+    .row:nth-of-type(2) { animation-delay: .15s; } .row:nth-of-type(3) { animation-delay: .3s; } .row:nth-of-type(4) { animation-delay: .45s; }
+    .led { animation: blink 2.4s ease-in-out infinite; }
+    @keyframes slide { from { opacity: 0; transform: translateX(-16px); } }
+    @keyframes blink { 50% { opacity: .3; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="898" height="274" rx="18" fill="#07130d" stroke="#1d4a33"/>
+  <g class="sans" font-size="18" text-anchor="middle">
+    <g class="row" transform="translate(24 24)">
+      <circle class="led" cx="8" cy="23" r="5" fill="#39ff88"/>
+      <text x="24" y="29" text-anchor="start" font-weight="700" fill="#39ff88">Frontend</text>
+      <g fill="#0e2018" stroke="#39ff88" stroke-opacity=".45"><rect x="126" width="170" height="46" rx="10"/><rect x="306" width="170" height="46" rx="10"/><rect x="486" width="170" height="46" rx="10"/><rect x="666" width="170" height="46" rx="10"/></g>
+      <g fill="#e8fff2"><text x="211" y="29">Next.js</text><text x="391" y="29">React</text><text x="571" y="29">TypeScript</text><text x="751" y="29">Tailwind CSS</text></g>
+    </g>
+    <g class="row" transform="translate(24 84)">
+      <circle class="led" cx="8" cy="23" r="5" fill="#2de2e6"/>
+      <text x="24" y="29" text-anchor="start" font-weight="700" fill="#2de2e6">Backend</text>
+      <g fill="#0e2018" stroke="#2de2e6" stroke-opacity=".45"><rect x="126" width="170" height="46" rx="10"/><rect x="306" width="170" height="46" rx="10"/><rect x="486" width="170" height="46" rx="10"/><rect x="666" width="170" height="46" rx="10"/></g>
+      <g fill="#e8fff2"><text x="211" y="29">Java</text><text x="391" y="29">Jakarta EE</text><text x="571" y="29">Tomcat 10</text><text x="751" y="29">API Routes</text></g>
+    </g>
+    <g class="row" transform="translate(24 144)">
+      <circle class="led" cx="8" cy="23" r="5" fill="#ffb84d"/>
+      <text x="24" y="29" text-anchor="start" font-weight="700" fill="#ffb84d">Datos</text>
+      <g fill="#0e2018" stroke="#ffb84d" stroke-opacity=".45"><rect x="126" width="170" height="46" rx="10"/><rect x="306" width="170" height="46" rx="10"/><rect x="486" width="170" height="46" rx="10"/><rect x="666" width="170" height="46" rx="10"/></g>
+      <g fill="#e8fff2"><text x="211" y="29">PostgreSQL</text><text x="391" y="29">Neon</text><text x="571" y="29">Drizzle ORM</text><text x="751" y="29">Supabase</text></g>
+    </g>
+    <g class="row" transform="translate(24 204)">
+      <circle class="led" cx="8" cy="23" r="5" fill="#5cc8ff"/>
+      <text x="24" y="29" text-anchor="start" font-weight="700" fill="#5cc8ff">Entrega</text>
+      <g fill="#0e2018" stroke="#5cc8ff" stroke-opacity=".45"><rect x="126" width="170" height="46" rx="10"/><rect x="306" width="170" height="46" rx="10"/><rect x="486" width="170" height="46" rx="10"/><rect x="666" width="170" height="46" rx="10"/></g>
+      <g fill="#e8fff2"><text x="211" y="29">Vercel</text><text x="391" y="29">GitHub</text><text x="571" y="29">PWA</text><text x="751" y="29">Vitest</text></g>
+    </g>
+  </g>
+</svg>

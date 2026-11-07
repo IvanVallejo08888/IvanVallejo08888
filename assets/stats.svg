@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 136" width="900" height="136" role="img" aria-labelledby="t">
+  <title id="t">227 commits en dos productos, 64 rutas de API, 12 archivos de pruebas y 8 repositorios públicos</title>
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+    .tile { animation: rise .9s ease-out both; }
+    .tile:nth-of-type(2) { animation-delay: .15s; }
+    .tile:nth-of-type(3) { animation-delay: .3s; }
+    .tile:nth-of-type(4) { animation-delay: .45s; }
+    .bar { animation: pulse 3.2s ease-in-out infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } }
+    @keyframes pulse { 50% { opacity: .35; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g class="sans" text-anchor="middle">
+    <g class="tile">
+      <rect x="1" y="1" width="213" height="134" rx="16" fill="#07130d" stroke="#1d4a33"/>
+      <rect class="bar" x="30" y="1" width="155" height="3" fill="#39ff88"/>
+      <text x="107" y="76" font-size="52" font-weight="800" fill="#39ff88">227</text>
+      <text x="107" y="112" font-size="18" fill="#a9d4bb">commits en 2 productos</text>
+    </g>
+    <g class="tile">
+      <rect x="229" y="1" width="213" height="134" rx="16" fill="#07130d" stroke="#1d4a33"/>
+      <rect class="bar" x="258" y="1" width="155" height="3" fill="#2de2e6"/>
+      <text x="335" y="76" font-size="52" font-weight="800" fill="#2de2e6">64</text>
+      <text x="335" y="112" font-size="18" fill="#a9d4bb">rutas de API</text>
+    </g>
+    <g class="tile">
+      <rect x="457" y="1" width="213" height="134" rx="16" fill="#07130d" stroke="#1d4a33"/>
+      <rect class="bar" x="486" y="1" width="155" height="3" fill="#ffb84d"/>
+      <text x="563" y="76" font-size="52" font-weight="800" fill="#ffb84d">12</text>
+      <text x="563" y="112" font-size="18" fill="#a9d4bb">archivos de pruebas</text>
+    </g>
+    <g class="tile">
+      <rect x="685" y="1" width="213" height="134" rx="16" fill="#07130d" stroke="#1d4a33"/>
+      <rect class="bar" x="714" y="1" width="155" height="3" fill="#5cc8ff"/>
+      <text x="791" y="76" font-size="52" font-weight="800" fill="#5cc8ff">8</text>
+      <text x="791" y="112" font-size="18" fill="#a9d4bb">repos públicos</text>
+    </g>
+  </g>
+</svg>
